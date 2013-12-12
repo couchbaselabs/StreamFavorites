@@ -1,0 +1,16 @@
+.DS_Store
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*.xccheckout
+*.framework
+*~
+xcuserdata/
+/build/
+DerivedData/
+obj/
+derived_src/
+node_modules/
+Pods/
+Podfile.lock
+AppSecretConfig.h

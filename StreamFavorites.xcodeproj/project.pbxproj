@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790CAC7618567A5F0051A37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CAC7518567A5F0051A37A /* Foundation.framework */; };
+		790CAC7818567A5F0051A37A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CAC7718567A5F0051A37A /* CoreGraphics.framework */; };
+		790CAC7A18567A5F0051A37A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CAC7918567A5F0051A37A /* UIKit.framework */; };
+		790CAC8018567A5F0051A37A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 790CAC7E18567A5F0051A37A /* InfoPlist.strings */; };
+		790CAC8218567A5F0051A37A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CAC8118567A5F0051A37A /* main.m */; };
+		790CAC8618567A5F0051A37A /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CAC8518567A5F0051A37A /* CBAppDelegate.m */; };
+		790CAC8918567A5F0051A37A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790CAC8718567A5F0051A37A /* Main.storyboard */; };
+		790CAC8C18567A5F0051A37A /* CBRecentUpdatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CAC8B18567A5F0051A37A /* CBRecentUpdatesViewController.m */; };
+		790CAC8F18567A5F0051A37A /* CBFavoriteUpdatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CAC8E18567A5F0051A37A /* CBFavoriteUpdatesViewController.m */; };
+		790CAC9118567A5F0051A37A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790CAC9018567A5F0051A37A /* Images.xcassets */; };
+		790CAC9818567A5F0051A37A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CAC9718567A5F0051A37A /* XCTest.framework */; };
+		790CAC9918567A5F0051A37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CAC7518567A5F0051A37A /* Foundation.framework */; };
+		790CAC9A18567A5F0051A37A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CAC7918567A5F0051A37A /* UIKit.framework */; };
+		790CACA218567A5F0051A37A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 790CACA018567A5F0051A37A /* InfoPlist.strings */; };
+		790CACA418567A5F0051A37A /* StreamFavoritesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CACA318567A5F0051A37A /* StreamFavoritesTests.m */; };
+		790CACB4185681E90051A37A /* CBLSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CACB1185681E90051A37A /* CBLSyncManager.m */; };
+		790CACB5185681E90051A37A /* CBLLinkedInAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CACB3185681E90051A37A /* CBLLinkedInAuth.m */; };
+		790CACB9185942700051A37A /* CBLIUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CACB8185942700051A37A /* CBLIUpdate.m */; };
+		9E9A43EDCA7F4F6885CC8EF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BECE313FDC2440292188ECB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790CAC9B18567A5F0051A37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790CAC6A18567A5F0051A37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790CAC7118567A5F0051A37A;
+			remoteInfo = StreamFavorites;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		790CAC7218567A5F0051A37A /* StreamFavorites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamFavorites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CAC7518567A5F0051A37A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		790CAC7718567A5F0051A37A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		790CAC7918567A5F0051A37A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		790CAC7D18567A5F0051A37A /* StreamFavorites-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreamFavorites-Info.plist"; sourceTree = "<group>"; };
+		790CAC7F18567A5F0051A37A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		790CAC8118567A5F0051A37A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		790CAC8318567A5F0051A37A /* StreamFavorites-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreamFavorites-Prefix.pch"; sourceTree = "<group>"; };
+		790CAC8418567A5F0051A37A /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		790CAC8518567A5F0051A37A /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		790CAC8818567A5F0051A37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		790CAC8A18567A5F0051A37A /* CBRecentUpdatesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBRecentUpdatesViewController.h; sourceTree = "<group>"; };
+		790CAC8B18567A5F0051A37A /* CBRecentUpdatesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBRecentUpdatesViewController.m; sourceTree = "<group>"; };
+		790CAC8D18567A5F0051A37A /* CBFavoriteUpdatesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBFavoriteUpdatesViewController.h; sourceTree = "<group>"; };
+		790CAC8E18567A5F0051A37A /* CBFavoriteUpdatesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBFavoriteUpdatesViewController.m; sourceTree = "<group>"; };
+		790CAC9018567A5F0051A37A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		790CAC9618567A5F0051A37A /* StreamFavoritesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamFavoritesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CAC9718567A5F0051A37A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		790CAC9F18567A5F0051A37A /* StreamFavoritesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreamFavoritesTests-Info.plist"; sourceTree = "<group>"; };
+		790CACA118567A5F0051A37A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		790CACA318567A5F0051A37A /* StreamFavoritesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamFavoritesTests.m; sourceTree = "<group>"; };
+		790CACB0185681E90051A37A /* CBLSyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLSyncManager.h; sourceTree = "<group>"; };
+		790CACB1185681E90051A37A /* CBLSyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLSyncManager.m; sourceTree = "<group>"; };
+		790CACB2185681E90051A37A /* CBLLinkedInAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLLinkedInAuth.h; sourceTree = "<group>"; };
+		790CACB3185681E90051A37A /* CBLLinkedInAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLLinkedInAuth.m; sourceTree = "<group>"; };
+		790CACB6185681FC0051A37A /* AppSecretConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSecretConfig.h; sourceTree = "<group>"; };
+		790CACB7185942700051A37A /* CBLIUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLIUpdate.h; sourceTree = "<group>"; };
+		790CACB8185942700051A37A /* CBLIUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLIUpdate.m; sourceTree = "<group>"; };
+		9BECE313FDC2440292188ECB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFB58C651AF410598AA91C6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790CAC6F18567A5F0051A37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CAC7818567A5F0051A37A /* CoreGraphics.framework in Frameworks */,
+				790CAC7A18567A5F0051A37A /* UIKit.framework in Frameworks */,
+				790CAC7618567A5F0051A37A /* Foundation.framework in Frameworks */,
+				9E9A43EDCA7F4F6885CC8EF3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CAC9318567A5F0051A37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CAC9818567A5F0051A37A /* XCTest.framework in Frameworks */,
+				790CAC9A18567A5F0051A37A /* UIKit.framework in Frameworks */,
+				790CAC9918567A5F0051A37A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790CAC6918567A5F0051A37A = {
+			isa = PBXGroup;
+			children = (
+				790CAC7B18567A5F0051A37A /* StreamFavorites */,
+				790CAC9D18567A5F0051A37A /* StreamFavoritesTests */,
+				790CAC7418567A5F0051A37A /* Frameworks */,
+				790CAC7318567A5F0051A37A /* Products */,
+				CFFB58C651AF410598AA91C6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		790CAC7318567A5F0051A37A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790CAC7218567A5F0051A37A /* StreamFavorites.app */,
+				790CAC9618567A5F0051A37A /* StreamFavoritesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790CAC7418567A5F0051A37A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790CAC7518567A5F0051A37A /* Foundation.framework */,
+				790CAC7718567A5F0051A37A /* CoreGraphics.framework */,
+				790CAC7918567A5F0051A37A /* UIKit.framework */,
+				790CAC9718567A5F0051A37A /* XCTest.framework */,
+				9BECE313FDC2440292188ECB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790CAC7B18567A5F0051A37A /* StreamFavorites */ = {
+			isa = PBXGroup;
+			children = (
+				790CACB0185681E90051A37A /* CBLSyncManager.h */,
+				790CACB1185681E90051A37A /* CBLSyncManager.m */,
+				790CACB2185681E90051A37A /* CBLLinkedInAuth.h */,
+				790CACB3185681E90051A37A /* CBLLinkedInAuth.m */,
+				790CACB6185681FC0051A37A /* AppSecretConfig.h */,
+				790CAC8418567A5F0051A37A /* CBAppDelegate.h */,
+				790CAC8518567A5F0051A37A /* CBAppDelegate.m */,
+				790CACB7185942700051A37A /* CBLIUpdate.h */,
+				790CACB8185942700051A37A /* CBLIUpdate.m */,
+				790CAC8718567A5F0051A37A /* Main.storyboard */,
+				790CAC8A18567A5F0051A37A /* CBRecentUpdatesViewController.h */,
+				790CAC8B18567A5F0051A37A /* CBRecentUpdatesViewController.m */,
+				790CAC8D18567A5F0051A37A /* CBFavoriteUpdatesViewController.h */,
+				790CAC8E18567A5F0051A37A /* CBFavoriteUpdatesViewController.m */,
+				790CAC9018567A5F0051A37A /* Images.xcassets */,
+				790CAC7C18567A5F0051A37A /* Supporting Files */,
+			);
+			path = StreamFavorites;
+			sourceTree = "<group>";
+		};
+		790CAC7C18567A5F0051A37A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790CAC7D18567A5F0051A37A /* StreamFavorites-Info.plist */,
+				790CAC7E18567A5F0051A37A /* InfoPlist.strings */,
+				790CAC8118567A5F0051A37A /* main.m */,
+				790CAC8318567A5F0051A37A /* StreamFavorites-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		790CAC9D18567A5F0051A37A /* StreamFavoritesTests */ = {
+			isa = PBXGroup;
+			children = (
+				790CACA318567A5F0051A37A /* StreamFavoritesTests.m */,
+				790CAC9E18567A5F0051A37A /* Supporting Files */,
+			);
+			path = StreamFavoritesTests;
+			sourceTree = "<group>";
+		};
+		790CAC9E18567A5F0051A37A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790CAC9F18567A5F0051A37A /* StreamFavoritesTests-Info.plist */,
+				790CACA018567A5F0051A37A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790CAC7118567A5F0051A37A /* StreamFavorites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CACA718567A5F0051A37A /* Build configuration list for PBXNativeTarget "StreamFavorites" */;
+			buildPhases = (
+				BCD6AA6805514BF8951B1A65 /* Check Pods Manifest.lock */,
+				790CAC6E18567A5F0051A37A /* Sources */,
+				790CAC6F18567A5F0051A37A /* Frameworks */,
+				790CAC7018567A5F0051A37A /* Resources */,
+				FAAD1F005A604357A662B12E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamFavorites;
+			productName = StreamFavorites;
+			productReference = 790CAC7218567A5F0051A37A /* StreamFavorites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790CAC9518567A5F0051A37A /* StreamFavoritesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CACAA18567A5F0051A37A /* Build configuration list for PBXNativeTarget "StreamFavoritesTests" */;
+			buildPhases = (
+				790CAC9218567A5F0051A37A /* Sources */,
+				790CAC9318567A5F0051A37A /* Frameworks */,
+				790CAC9418567A5F0051A37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790CAC9C18567A5F0051A37A /* PBXTargetDependency */,
+			);
+			name = StreamFavoritesTests;
+			productName = StreamFavoritesTests;
+			productReference = 790CAC9618567A5F0051A37A /* StreamFavoritesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790CAC6A18567A5F0051A37A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chris Anderson";
+				TargetAttributes = {
+					790CAC9518567A5F0051A37A = {
+						TestTargetID = 790CAC7118567A5F0051A37A;
+					};
+				};
+			};
+			buildConfigurationList = 790CAC6D18567A5F0051A37A /* Build configuration list for PBXProject "StreamFavorites" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790CAC6918567A5F0051A37A;
+			productRefGroup = 790CAC7318567A5F0051A37A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790CAC7118567A5F0051A37A /* StreamFavorites */,
+				790CAC9518567A5F0051A37A /* StreamFavoritesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790CAC7018567A5F0051A37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CAC9118567A5F0051A37A /* Images.xcassets in Resources */,
+				790CAC8018567A5F0051A37A /* InfoPlist.strings in Resources */,
+				790CAC8918567A5F0051A37A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CAC9418567A5F0051A37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CACA218567A5F0051A37A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCD6AA6805514BF8951B1A65 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAAD1F005A604357A662B12E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790CAC6E18567A5F0051A37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CACB4185681E90051A37A /* CBLSyncManager.m in Sources */,
+				790CAC8218567A5F0051A37A /* main.m in Sources */,
+				790CAC8C18567A5F0051A37A /* CBRecentUpdatesViewController.m in Sources */,
+				790CACB9185942700051A37A /* CBLIUpdate.m in Sources */,
+				790CACB5185681E90051A37A /* CBLLinkedInAuth.m in Sources */,
+				790CAC8618567A5F0051A37A /* CBAppDelegate.m in Sources */,
+				790CAC8F18567A5F0051A37A /* CBFavoriteUpdatesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CAC9218567A5F0051A37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CACA418567A5F0051A37A /* StreamFavoritesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790CAC9C18567A5F0051A37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790CAC7118567A5F0051A37A /* StreamFavorites */;
+			targetProxy = 790CAC9B18567A5F0051A37A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		790CAC7E18567A5F0051A37A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790CAC7F18567A5F0051A37A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		790CAC8718567A5F0051A37A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790CAC8818567A5F0051A37A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		790CACA018567A5F0051A37A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790CACA118567A5F0051A37A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790CACA518567A5F0051A37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		790CACA618567A5F0051A37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790CACA818567A5F0051A37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFB58C651AF410598AA91C6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamFavorites/StreamFavorites-Prefix.pch";
+				INFOPLIST_FILE = "StreamFavorites/StreamFavorites-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		790CACA918567A5F0051A37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFB58C651AF410598AA91C6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamFavorites/StreamFavorites-Prefix.pch";
+				INFOPLIST_FILE = "StreamFavorites/StreamFavorites-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		790CACAB18567A5F0051A37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StreamFavorites.app/StreamFavorites";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamFavorites/StreamFavorites-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StreamFavoritesTests/StreamFavoritesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		790CACAC18567A5F0051A37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StreamFavorites.app/StreamFavorites";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamFavorites/StreamFavorites-Prefix.pch";
+				INFOPLIST_FILE = "StreamFavoritesTests/StreamFavoritesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790CAC6D18567A5F0051A37A /* Build configuration list for PBXProject "StreamFavorites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CACA518567A5F0051A37A /* Debug */,
+				790CACA618567A5F0051A37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CACA718567A5F0051A37A /* Build configuration list for PBXNativeTarget "StreamFavorites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CACA818567A5F0051A37A /* Debug */,
+				790CACA918567A5F0051A37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CACAA18567A5F0051A37A /* Build configuration list for PBXNativeTarget "StreamFavoritesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CACAB18567A5F0051A37A /* Debug */,
+				790CACAC18567A5F0051A37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790CAC6A18567A5F0051A37A /* Project object */;
+}

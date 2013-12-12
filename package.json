@@ -1,0 +1,11 @@
+{
+  "dependencies" : {
+    "http-proxy" : "0.10",
+    "follow" : "0.10",
+    "request-json" : "0.4",
+    "request" : "2",
+    "async" : "0.2",
+    "docstate" : "0.0.2"
+  },
+  "jshintConfig" : {}
+}
