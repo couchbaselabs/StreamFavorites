@@ -67,7 +67,6 @@
     
     CBLQueryRow* row = [dataSource rowAtIndex: indexPath.row];
     CBLIUpdate* update = [CBLIUpdate modelForDocument: row.document];
-    NSLog(@"fav %@ %@",row.document.properties[@"favorite"], update.favorite ? @"y":@"n");
     if (update.favorite) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     } else {
@@ -75,6 +74,8 @@
     }
     cell.textLabel.text = update.headline;
     cell.detailTextLabel.text = update.url;
+    cell.imageView.image = update.image;
+
     return cell;
 }
 

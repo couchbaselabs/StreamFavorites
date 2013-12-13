@@ -76,6 +76,8 @@
     }
     cell.textLabel.text = update.headline;
     cell.detailTextLabel.text = update.url;
+    
+    cell.imageView.image = update.image;
     return cell;
 }
 

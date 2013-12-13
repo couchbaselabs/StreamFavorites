@@ -59,4 +59,15 @@
     return self.document.properties[@"updateContent"][@"person"][@"currentShare"][@"content"][@"shortenedUrl"];
 }
 
+-(UIImage*) image {
+    NSString *urlString = self.document.properties[@"updateContent"][@"person"][@"pictureUrl"];
+    if (urlString) {
+
+        NSData *data = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:urlString]];
+        return [[UIImage alloc] initWithData:data];
+    } else {
+        return nil;
+    }
+}
+
 @end

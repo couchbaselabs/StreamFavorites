@@ -19,4 +19,6 @@
 + (CBLQuery*) queryRecentFavoritesInDatabase: (CBLDatabase*)db;
 + (CBLQuery*) queryRecentUpdatesInDatabase: (CBLDatabase*)db;
 + (NSNumber*) maximumTimestampInDatabase: (CBLDatabase*)db;
+-(UIImage*) image;
+
 @end
